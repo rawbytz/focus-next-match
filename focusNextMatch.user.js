@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         WorkFlowy Focus Next Match
 // @namespace    https://rawbytz.wordpress.com
-// @version      1.8
+// @version      1.8.1
 // @description  Use F3 to move focus between search results
 // @author       rawbytz
 // @match        https://workflowy.com/*
 // @match        https://beta.workflowy.com/*
-// @updateUrl    https://gist.github.com/rawbytz/4100a1d8b085cd8a173a994b400781de/raw/focusNextMatch.user.js
-// @downloadUrl  https://gist.github.com/rawbytz/4100a1d8b085cd8a173a994b400781de/raw/focusNextMatch.user.js
+// @updateUrl    https://github.com/rawbytz/focus-next-match/raw/master/focusNextMatch.user.js
+// @downloadUrl  https://github.com/rawbytz/focus-next-match/raw/master/focusNextMatch.user.js
 // @grant        none
 // @run-at       document-end
 
