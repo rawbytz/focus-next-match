@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WorkFlowy Focus Next Match
 // @namespace    https://rawbytz.wordpress.com
-// @version      1.8.2
+// @version      1.8.3
 // @description  Use F3 to move focus between search results
 // @author       rawbytz
 // @match        https://workflowy.com/*
@@ -17,7 +17,7 @@
   'use strict';
   function focusNextMatch() {
     if (WF.currentSearchQuery()) {
-      const matches = document.querySelectorAll(".name.matches .content, .notes.matches .content");
+      const matches = document.querySelectorAll(".name.matches > .content, .notes.matches > .content, .name.fullMatch > .content");
       const f = WF.focusedItem();
       var t = 0;
       if (f) {
